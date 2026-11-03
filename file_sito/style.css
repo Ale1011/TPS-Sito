@@ -1,3 +1,23 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+.approfondimento-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.approfondimento-title {
+    text-align: center;
+}
+
+.approfondimento-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.approfondimento-btn {
+    padding: 20px;
+    cursor: pointer;
+}
