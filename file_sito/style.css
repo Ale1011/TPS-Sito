@@ -39,3 +39,9 @@ body {
 .approfondimento-btn:hover {
     background-color: #555;
 }
+.immagine-standard {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+
