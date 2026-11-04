@@ -13,6 +13,39 @@
                 <h3>Funzionamento della memoria e dei registri</h3>
                 <img src="./image/page_2.jpg" alt="cpu" class="immagine-standard">
             </div>
+            <div>
+                <h4>Che cosa sono i registri?</h4>
+                <p>I registri sono piccole aree di memoria molto veloci situate
+                 all'interno del processore. Servono a conservare temporaneamente dati, indirizzi e risultati delle operazioni che la CPU deve eseguire.</p>
+                <p>Ogni processore possiede diversi registri, ognuno con funzioni specifiche. Alcuni vengono utilizzati per effettuare calcoli,
+                 altri per gestire gli indirizzi della memoria o controllare l'esecuzione del programma.</p>
+                <span>Per esempio, nell'architettura x86 a 16 bit troviamo registri come:</span>
+                <ul>
+                    <li>AX: utilizzato frequentemente per operazioni aritmetiche.</li>
+                    <li>BX: può contenere dati o indirizzi.</li>
+                    <li>CX: spesso utilizzato come contatore.</li>
+                    <li>DX: utilizzato in alcune operazioni aritmetiche e di input/output.</li>
+                </ul>
+            </div>
+            <div>
+                <h4>La memoria RAM</h4>
+                <p>La RAM è la memoria principale del computer e permette di conservare 
+                temporaneamente i dati e le istruzioni dei programmi in esecuzione.
+                A differenza dei registri, la RAM può contenere una quantità 
+                molto maggiore di informazioni, ma è generalmente più lenta.
+                L'Assembly permette di leggere e modificare i dati presenti in memoria attraverso apposite istruzioni.</p>
+            </div>
+            <div>
+                <h4>Lo Stack</h4>
+                <p>Un'altra componente importante è lo Stack, una zona di memoria
+                utilizzata per conservare temporaneamente informazioni durante l'esecuzione di un programma.
+                Viene utilizzato, per esempio, per salvare gli indirizzi di ritorno delle funzioni e alcuni dati temporanei.</p>
+                <span>Le principali istruzioni utilizzate per gestire lo Stack sono:</span>
+                <ul>
+                    <li>PUSH: inserisce un dato nello Stack.</li>
+                    <li>POP: preleva un dato dallo Stack.</li>
+                </ul>
+            </div>
     </div>
     
 </body>
